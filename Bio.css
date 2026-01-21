@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+body {
+    background-color: #FAF3E1;
+    color: #430202;
+    line-height: 1.5;
+    padding: 50px;
+}
+
+.Headline {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.Headline h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.roundpic {
+    border-radius: 20%;
+    margin-top: 5px;
+    border: 4px solid #150101;
+}
+
+.About,
+.Pers,
+.Academic,
+.HobSkills{
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px;
+    background-color: #fffaf0;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+}
+
+h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.justy {
+    text-align:justify;
+}
+
+.list {
+    list-style-position: inside;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.list li {
+    margin: 10px;
+}
+
+/* Horizontal Lines */
+hr {
+    width: 70%;
+    margin: 30px auto;
+    border: none;
+    height: 1.5px;
+    background-color: #360b0b;
+}
+
+
+.Headline h1 {
+        font-size: 2rem;
+    }
+
